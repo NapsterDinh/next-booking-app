@@ -1,0 +1,32 @@
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Abstract files */
+/* @import "./abstracts/mixins";
+@import "./abstracts/variables"; */
+
+/* Components */
+/* @import "./components/form";
+@import "./components/modal"; */
+
+/* Core files */
+/* @import "./core/common";
+@import "./core/reset";
+@import "./core/typography";
+@import "./core/utils"; */
+
+/* Layout */
+/* @import "./layout/footer";
+@import "./layout/header"; */
+
+/* Pages */
+/* @import "./pages/home";
+@import "./pages/login";
+@import "./pages/signup"; */
+

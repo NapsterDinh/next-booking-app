@@ -1,0 +1,22 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": false,
+  "printWidth": 120,
+  "endOfLine": "auto",
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": "*.{js,jsx,tsx,ts,scss,json,html}",
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ],
+  "jsxSingleQuote": false,
+  "quoteProps": "as-needed",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false
+}
