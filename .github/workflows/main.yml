@@ -1,0 +1,18 @@
+name: CI
+on: [push]
+jobs:
+  standard-checks:
+    name: Lint and Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - name: Install package
+        run: npm install
+      - name: Format source
+        run: npm ci
+      - name: Build production
+        run: npm run build:prod
+      
