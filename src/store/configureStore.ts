@@ -8,9 +8,9 @@ import rootSaga from "./middlewares/saga";
 import { InjectedReducers, createReducer } from "./reducers";
 
 type AppStore = Store<any, Action<string>> & { dispatch: unknown } & {
-  addReducer: (key: string, reducer: Reducer) => void;
-  removeReducer: (key: string) => void;
-  runSaga: (listSagas: any[]) => void;
+  addReducer: (_key: string, _reducer: Reducer) => void;
+  removeReducer: (_key: string) => void;
+  runSaga: (_listSagas: any[]) => void;
 };
 
 const configureStore = (): [AppStore, Persistor] => {

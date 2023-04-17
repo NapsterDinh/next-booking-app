@@ -1,15 +1,15 @@
 :root {
   --black-primary: #202325;
-  --gray-primary: #5D5A64;
+  --gray-primary: #5d5a64;
   --gray-secondary: #848484;
   --gray-tertiary: #cecece;
-  --gray-quaternary: #F8F8F8;
-  --blue-primary: #3E79F7;
-  --blue-quaternary: #E3EBF6;
-  --orange-primary: #FF6B00;
-  --orange-secondary: #ED7B09;
-  --danger-primary: #FF4D4F;
-  --danger-tertiary: #FFDFCF;
+  --gray-quaternary: #f8f8f8;
+  --blue-primary: #3e79f7;
+  --blue-quaternary: #e3ebf6;
+  --orange-primary: #ff6b00;
+  --orange-secondary: #ed7b09;
+  --danger-primary: #ff4d4f;
+  --danger-tertiary: #ffdfcf;
 
   --box-shadow: 0 1px 2px -2px rgb(0 0 0 / 16%), 0 3px 6px 0 rgb(0 0 0 / 12%), 0 5px 12px 4px rgb(0 0 0 / 9%);
   --box-shadow-bottom: 0 1px 2px #0000001a, 0 -1px #0000001a inset, 0 2px 1px -1px #ffffff80 inset;

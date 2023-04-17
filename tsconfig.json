@@ -42,14 +42,25 @@
         "./assets/*"
       ],
       "@utils/*": [
-        "./utils/*"
+        "utils/*"
       ],
       "@store/*": [
         "./store/*"
+      ],
+      "@constants/*": [
+        "constants/*"
       ]
     },
     "strict": false,
-    "incremental": true
+    "incremental": true,
+    "typeRoots": [
+      "./src/types/**/*.d.ts"
+    ],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "exclude": [
     "node_modules"
@@ -58,6 +69,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "**/**/*.tsx"
+    "**/**/*.tsx",
+    "./src/types/**/*.d.ts",
+    ".next/types/**/*.ts"
   ]
 }

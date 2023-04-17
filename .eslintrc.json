@@ -31,18 +31,6 @@
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
-    "@typescript-eslint/indent": [
-      "error",
-      2,
-      {
-        "FunctionDeclaration": {
-          "parameters": "first"
-        },
-        "FunctionExpression": {
-          "parameters": "first"
-        }
-      }
-    ],
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/member-delimiter-style": [
       "error",
@@ -133,6 +121,7 @@
     "object-shorthand": "error",
     "one-var": ["error", "never"],
     "prefer-const": "error",
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
     "space-before-function-paren": [
       "error",
       {

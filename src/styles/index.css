@@ -1,12 +1,8 @@
-@import "@fontsource/roboto/300.css";
-@import "@fontsource/roboto/400.css";
-@import "@fontsource/roboto/500.css";
-@import "@fontsource/roboto/700.css";
+@import 'antd/dist/reset.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /* Abstract files */
 /* @import "./abstracts/mixins";
 @import "./abstracts/variables"; */
@@ -29,4 +25,3 @@
 /* @import "./pages/home";
 @import "./pages/login";
 @import "./pages/signup"; */
-

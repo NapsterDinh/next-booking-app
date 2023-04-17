@@ -1,12 +1,12 @@
 import RoutePage from "@pageComponents/home/RoutePage";
-import { NextPage } from "next";
+import { GetServerSidePropsContext, NextPage } from "next";
 
 /** HomePage*/
 const Index: NextPage<any> = (props) => {
   return <RoutePage {...props} />;
 };
 
-export async function getServerSideProps() {
+export async function getServerSideProps({ locale }: GetServerSidePropsContext) {
   try {
     // const props = await RoutePageStore.initialize({ context });
     const props = {};

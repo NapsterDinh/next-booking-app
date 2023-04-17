@@ -1,9 +1,20 @@
 import { AppContext, AppProps } from "next/app";
 
 import "@styles/index.css";
+import { ConfigProvider } from "antd";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
-  return <Component {...pageProps} />;
+  return (
+    <ConfigProvider
+      theme={{
+        token: {
+          colorPrimary: "#00b96b",
+        },
+      }}
+    >
+      <Component {...pageProps} />
+    </ConfigProvider>
+  );
 };
 
 MyApp.getInitialProps = async ({ ctx, Component }: AppContext) => {

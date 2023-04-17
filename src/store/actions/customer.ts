@@ -1,9 +1,8 @@
-import { Customer } from "@core/interfaces";
 
 export const SET_CUSTOMER_INFO = "SET_CUSTOMER_INFO";
 export const CLEAR_CUSTOMER_INFO = "CLEAR_CUSTOMER_INFO";
 
-export function set_customer_info(info: Customer) {
+export function set_customer_info(info: any) {
   return {
     type: SET_CUSTOMER_INFO,
     payload: { info },

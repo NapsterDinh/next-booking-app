@@ -1,4 +1,5 @@
 # Next.js Starter Kit
+
 ![test and build](https://github.com/KushibikiMashu/nextjs-starter-kit/workflows/test%20and%20build/badge.svg)
 
 Next.js starter kit is a set of popular libraries for Next.js developers. Next.js starter kit saves your time to set up a new project. This kit is certainly production ready 🚀
@@ -14,6 +15,7 @@ Next.js starter kit contains main library with minimum config files below:
 - Storybook
 
 # Installation
+
 run `npx create-next-app`, clone or fork a copy of this repo.
 
 ```sh
